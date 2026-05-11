@@ -1,0 +1,11 @@
+metric,value
+script,47d_finalize_nested_LODO_methods_text.R
+project_dir,/Users/felix/Documents/Sepsis_CrossCohort_scRNA
+nested_lodo_inner_cv_folds,5
+final_compact_training_cv_folds,10
+lambda_rule,lambda.1se
+class_weights,No class weights were passed to glmnet model fitting.
+resampling,"No oversampling, undersampling, SMOTE, ROSE, or synthetic resampling was used."
+n_failed_checks,1
+ready_for_manuscript_insertion,NO_FIX_CHECK_ITEMS
+recommended_next_step,Use T47d_nested_LODO_methods_final_text.docx or txt to replace the incomplete nested LODO methods section in the manuscript.

@@ -1,0 +1,16 @@
+manuscript_section,frozen_source,allowed_use,restricted_claims
+Abstract,T20_key_results_numbers; T21_claims,Use only rounded values from key numbers.,Do not claim deployment readiness.
+Introduction,No numeric freeze source required,Background only.,Do not overstate novelty.
+Methods: data sources,T20_table1_cohort_context; T15b cohort table,Describe cohort heterogeneity and control-type limitations.,Do not claim same-intended-use validation.
+Methods: preprocessing,Earlier preprocessing scripts and T03/T05/T14 outputs,Describe archived public processed data and harmonization.,Do not claim raw-level reprocessing if not done.
+Methods: nested LODO modeling,T20_table2_nested_LODO_validation; T14 outputs,Primary model validation result.,Do not imply held-out data participated in feature selection.
+Methods: calibration and threshold analysis,T20_table3_calibration_threshold_transport; T17 outputs,Central transportability result.,Do not claim fixed threshold is validated.
+Methods: DCA,T17_nested_LODO_DCA_summary,Exploratory only.,Do not claim clinical utility is established.
+Methods: scRNA localization,T20_table4_scRNA_localization; T19 outputs,Biological localization only.,Do not call this diagnostic validation.
+Results: cohort composition,T20_table1_cohort_context,Main result.,Do not hide healthy-control dominance.
+Results: nested LODO,T20_table2_nested_LODO_validation,Main result.,Do not hide GSE54514 failure.
+Results: calibration and threshold,T20_table3_calibration_threshold_transport,Main result.,Do not soften threshold failure.
+Results: DCA,T17_nested_LODO_DCA_summary,Supplementary or cautious main result.,Do not overinterpret DCA.
+Results: scRNA localization,T20_table4_scRNA_localization,Main biological interpretation.,Do not infer patient-level diagnostic performance.
+Discussion: main interpretation,T21_recommended_claims_and_restrictions,Defensive synthesis.,Do not claim universal robustness.
+Discussion: limitations,T21_manuscript_risk_flags; T16b RNAseq No-Go,Must explicitly state limitations.,Do not treat RNA-seq as completed validation.

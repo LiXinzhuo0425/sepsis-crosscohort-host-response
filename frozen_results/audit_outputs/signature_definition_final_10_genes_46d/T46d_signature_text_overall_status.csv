@@ -1,0 +1,16 @@
+metric,value
+script,46d_finalize_signature_text_package.R
+project_dir,/Users/felix/Documents/Sepsis_CrossCohort_scRNA
+signature_source,/Users/felix/Documents/Sepsis_CrossCohort_scRNA/04_results/signature_definition_final_10_genes_46c/T46c_final_10_gene_signature_definition.csv
+n_final_genes,10
+final_gene_list,"RAB31, VNN1, TCN1, EMILIN2, ZDHHC19, ANKRD22, PGLYRP1, FAM20A, RNASE3, HK3"
+n_six_fold_recurrent_genes,9
+six_fold_recurrent_genes,"RAB31, VNN1, TCN1, ZDHHC19, ANKRD22, PGLYRP1, FAM20A, RNASE3, HK3"
+n_non_six_fold_genes,1
+non_six_fold_genes,EMILIN2 (3/6)
+final_signature_equals_six_fold_recurrent_subset,FALSE
+table2_title_word_count,11
+table2_footnote_word_count,87
+n_failed_checks,0
+ready_for_manuscript_insertion,YES_INSERT_SIGNATURE_TEXT
+recommended_next_step,Use T46d_signature_text_package.docx or TXT output to replace inconsistent signature terminology in the manuscript. Keep T46c final signature table as the data source for Table 2 and Supplementary Table S2.

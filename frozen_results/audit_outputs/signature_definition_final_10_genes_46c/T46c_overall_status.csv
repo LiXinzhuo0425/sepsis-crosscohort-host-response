@@ -1,0 +1,14 @@
+metric,value
+script,46c_define_signature_from_forced_sources.R
+project_dir,/Users/felix/Documents/Sepsis_CrossCohort_scRNA
+forced_final_gene_set_path,/Users/felix/Documents/Sepsis_CrossCohort_scRNA/04_results/single_cell/T19_scRNA_signature_gene_sets.csv
+main_deg_path,/Users/felix/Documents/Sepsis_CrossCohort_scRNA/04_results/final_freeze/tables/limma_DEG_main_limma_DEG_Sepsis_vs_Control.csv
+n_final_genes,10
+final_gene_list,RAB31; VNN1; TCN1; EMILIN2; ZDHHC19; ANKRD22; PGLYRP1; FAM20A; RNASE3; HK3
+n_missing_direction,0
+n_invalid_occurrence,0
+n_bulk_not_detected,0
+n_single_cell_not_detected,0
+n_failed_checks,0
+ready_for_manuscript_insertion,YES_INSERT_SIGNATURE_DEFINITION
+recommended_next_step,"Review Final10_Signature and Signature_vs_Recurrent sheets. If n_failed_checks is 0, use the DOCX table and insertion text in the manuscript."

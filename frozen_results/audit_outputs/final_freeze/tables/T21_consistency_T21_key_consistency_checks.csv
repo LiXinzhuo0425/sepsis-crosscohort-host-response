@@ -1,0 +1,17 @@
+check_id,expected_or_key_value,recalculated_value,status
+bulk_total_n_consistency,484,484,PASS
+bulk_case_n_consistency,333,333,PASS
+bulk_control_n_consistency,151,151,PASS
+nested_median_AUROC_consistency,0.907263492063493,0.907263492063493,PASS
+nested_min_AUROC_consistency,0.568253968253968,0.568253968253968,PASS
+nested_max_AUROC_consistency,1,1,PASS
+pooled_AUROC_consistency,0.721933854384186,0.721933854384186,PASS
+pooled_Brier_consistency,0.333489146055543,0.333489146055543,PASS
+median_abs_threshold_shift_consistency,0.537339864601492,0.537339864601492,PASS
+max_abs_threshold_shift_consistency,0.697171075242395,0.697171075242395,PASS
+fixed_sensitivity_failure_count_consistency,2,2,PASS
+fixed_specificity_failure_count_consistency,1,1,PASS
+scRNA_cell_count_present,59743,59743,PASS
+scRNA_final10_gene_presence,10,10,PASS
+scRNA_nested_recurrent_gene_presence,10,10,PASS
+scRNA_top_celltype_agreement,Monocyte/Myeloid / Monocyte/Myeloid,Monocyte/Myeloid / Monocyte/Myeloid,PASS

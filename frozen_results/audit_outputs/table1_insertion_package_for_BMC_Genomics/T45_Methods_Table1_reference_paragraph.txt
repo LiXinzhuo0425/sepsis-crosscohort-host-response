@@ -1,0 +1,1 @@
+To minimize ambiguity in cross-cohort comparisons, each dataset was documented with respect to platform, sample source, case definition, comparator definition, intermediate or repeated sample handling, and analytical role in the present study (Table 1). Detailed source references and cohort-specific verification notes are provided in Supplementary Table S1.

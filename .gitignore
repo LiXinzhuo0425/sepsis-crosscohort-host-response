@@ -1,0 +1,5 @@
+large_files_for_zenodo_only/
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/

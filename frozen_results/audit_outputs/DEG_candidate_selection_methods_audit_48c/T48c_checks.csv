@@ -1,0 +1,29 @@
+check_id,check_item,observed,status
+C01,Project directory exists,TRUE,PASS
+C02,Main DEG script located,TRUE,PASS
+C03,Candidate selection script located,TRUE,PASS
+C04,Main DEG trace generated,TRUE,PASS
+C05,Candidate trace generated,TRUE,PASS
+C06,Main DEG uses limma,TRUE,PASS
+C07,Main DEG uses merged expression evidence,TRUE,PASS
+C08,Main DEG uses dataset/batch evidence,TRUE,PASS
+C09,DEG adjusted P threshold confirmed,TRUE,PASS
+C10,DEG log2FC threshold confirmed,TRUE,PASS
+C11,Candidate max gene count confirmed,TRUE,PASS
+C12,Direction consistency threshold confirmed,TRUE,PASS
+C13,Univariate AUROC threshold confirmed,TRUE,PASS
+C14,Correlation threshold confirmed,TRUE,PASS
+C15,Main DEG and candidate selection roles separated,TRUE,PASS
+C16,Methods text generated,TRUE,PASS
+C17,Figure 2 legend replacement generated,TRUE,PASS
+C18,Methods text uses direction threshold from candidate script,TRUE,PASS
+C19,Methods text uses AUROC threshold from candidate script,TRUE,PASS
+C20,Methods text includes max candidate DEG cap,TRUE,PASS
+C21,No frozen-workflow wording remains,TRUE,PASS
+C22,No NEEDS_MANUAL_CONFIRMATION remains,TRUE,PASS
+C23,Final audit table generated,TRUE,PASS
+C24,CSV audit generated,TRUE,PASS
+C25,TXT text package generated,TRUE,PASS
+C26,DOCX text package generated,TRUE,PASS
+C27,XLSX workbook generated,TRUE,PASS
+C28,Ready for manuscript insertion,TRUE,PASS

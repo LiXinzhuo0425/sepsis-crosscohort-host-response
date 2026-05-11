@@ -1,0 +1,12 @@
+metric,value
+dataset,GSE167363
+tar_file_exists,TRUE
+tar_size_mb,321.299
+n_extracted_files,36
+n_matrix_mtx_files,12
+n_features_or_genes_tsv_files,12
+n_barcodes_tsv_files,12
+n_candidate_dirs,1
+n_complete_10x_mex_dirs,1
+n_samples_in_metadata,12
+n_samples_with_detected_files,12

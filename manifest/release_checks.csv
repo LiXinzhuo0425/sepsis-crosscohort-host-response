@@ -1,0 +1,25 @@
+check_id,check_item,observed,status
+C01,Release directory exists,TRUE,PASS
+C02,README generated,TRUE,PASS
+C03,LICENSE generated,TRUE,PASS
+C04,CITATION.cff generated,TRUE,PASS
+C05,sessionInfo generated,TRUE,PASS
+C06,GEO accessions doc generated,TRUE,PASS
+C07,Run order doc generated,TRUE,PASS
+C08,Data dictionary generated,TRUE,PASS
+C09,Availability template generated,TRUE,PASS
+C10,Upload instructions generated,TRUE,PASS
+C11,Manifest generated,TRUE,PASS
+C12,Copy log generated,TRUE,PASS
+C13,Code directory contains R scripts,TRUE,PASS
+C14,Additional files directory exists,TRUE,PASS
+C15,Frozen results directory exists,TRUE,PASS
+C16,Large files directory exists,TRUE,PASS
+C17,At least one selected script copied,TRUE,PASS
+C18,At least one result file copied,TRUE,PASS
+C19,Additional file 1 copied or logged,TRUE,PASS
+C20,Additional file 2 copied or logged,TRUE,PASS
+C21,No file >100 MiB outside large_files_for_zenodo_only,TRUE,PASS
+C22,No raw GEO redistribution folder created,TRUE,PASS
+C23,Repository release folder ready,TRUE,PASS
+C24,Overall status file ready,TRUE,PASS

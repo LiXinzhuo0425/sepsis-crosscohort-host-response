@@ -1,0 +1,5 @@
+criterion,pass
+median_AUROC_ge_0.85,TRUE
+at_least_4_of_6_AUROC_ge_0.80,TRUE
+minimum_AUROC_ge_0.65,FALSE
+at_least_3_recurrent_genes,TRUE

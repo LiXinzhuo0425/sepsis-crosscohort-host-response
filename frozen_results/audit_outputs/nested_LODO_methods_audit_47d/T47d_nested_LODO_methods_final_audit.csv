@@ -1,0 +1,20 @@
+method_item,final_decision,evidence,status
+Nested LODO outer loop,"Leave-one-dataset-out outer validation, with one bulk cohort held out at each outer split.",Project design and nested LODO scripts.,READY
+Nested LODO inner CV folds,5-fold inner cross-validation,08_LODO_diagnostic_modeling.R and 14_nested_LODO_full_pipeline.R contain nfolds_inner_cv <- 5 and construct foldid from seq_len(nfolds_inner_cv).,READY
+Final compact model training CV folds,10-fold cross-validation for the final compact model trained after nested LODO selection.,10_final_compact_model_training.R contains nfolds_cv <- 10 and constructs foldid from seq_len(nfolds_cv).,READY
+foldid implementation,foldid was explicitly constructed and passed to cv.glmnet.,"47c trace includes foldid <- rep(seq_len(nfolds_inner_cv), ...) and foldid = foldid.",READY
+Model family,"family = ""binomial""","47 and 47b audit detected family = ""binomial"" in cv.glmnet calls.",READY
+glmnet type.measure,"type.measure = ""auc""","47 and 47b audit detected type.measure = ""auc"" in cv.glmnet calls.",READY
+glmnet standardize argument,standardize = FALSE,47 and 47b audit detected standardize = FALSE in cv.glmnet calls.,READY
+alpha grid,"c(1.00, 0.75, 0.50)","47 audit detected alpha_grid <- c(1.00, 0.75, 0.50).",READY
+alpha selection basis,Each alpha value was evaluated explicitly within training data because cv.glmnet does not search over alpha automatically.,Documented manually based on glmnet behavior and project alpha loop.,READY
+lambda selection rule,lambda.1se,"Trace output contains lambda_rule <- ""lambda.1se"", selected_lambda <- lambda_rule, and prediction/coefficient extraction using selected_lambda.",READY
+threshold selection,Youden index selected within the training data only,47 audit detected Youden index.,READY
+AUROC 95% CI,pROC DeLong 95% CI,47 audit detected pROC DeLong 95% CI.,READY
+AUPRC,PRROC::pr.curve,47 audit detected PRROC::pr.curve.,READY
+Brier score,Mean squared error between observed binary outcome and predicted probability,47 audit detected Brier score calculation.,READY
+Calibration intercept/slope,Logistic calibration / rms::val.prob-style validation of predicted probabilities,47 audit detected rms::val.prob or equivalent logistic calibration.,READY
+Missing values,Complete-case filtering for required phenotype labels and signature-gene measurements,47 audit detected complete-case filtering or equivalent missingness handling.,READY
+Class weights,No class weights were passed to glmnet model fitting.,47b cv.glmnet audit found no weights argument in cv.glmnet calls.,READY
+Resampling,"No oversampling, undersampling, SMOTE, ROSE, or synthetic resampling was used.",47b audit detected no resampling-related keywords in glmnet modeling contexts.,READY
+Leakage control,"Feature filtering, preprocessing/scaling, alpha/lambda tuning, threshold selection, and model fitting were restricted to the training cohorts within each outer LODO split.",Nested design statement and script-level separation of training and held-out data.,READY

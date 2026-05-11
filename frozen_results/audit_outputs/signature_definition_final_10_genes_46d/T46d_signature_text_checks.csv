@@ -1,0 +1,25 @@
+check_id,check_item,observed,status
+C01,46c signature input exists,TRUE,PASS
+C02,Final signature has 10 genes,TRUE,PASS
+C03,All genes have COMPLETE evidence status,TRUE,PASS
+C04,All genes are upregulated in sepsis,TRUE,PASS
+C05,All genes used in final bulk analysis,TRUE,PASS
+C06,All genes used in single-cell module-score calculation,TRUE,PASS
+C07,Six-fold recurrent gene subset detected,TRUE,PASS
+C08,Non-six-fold gene subset detected,TRUE,PASS
+C09,Final signature is explicitly distinguished from six-fold recurrent subset,TRUE,PASS
+C10,Table 2 title generated,TRUE,PASS
+C11,Table 2 title has 15 words or fewer,TRUE,PASS
+C12,Table 2 footnote generated,TRUE,PASS
+C13,Table 2 footnote has 300 words or fewer,TRUE,PASS
+C14,Table 2 footnote mentions 0 to 6 occurrence range,TRUE,PASS
+C15,Table 2 footnote mentions non-six-fold gene,TRUE,PASS
+C16,Methods paragraph mentions FINAL10 gene set,TRUE,PASS
+C17,Methods paragraph distinguishes recurrent nested LODO subset,TRUE,PASS
+C18,Results paragraph lists all final genes,TRUE,PASS
+C19,Results paragraph mentions nine six-fold recurrent genes,TRUE,PASS
+C20,Additional file 2 section includes file name,TRUE,PASS
+C21,Additional file 2 section includes file format,TRUE,PASS
+C22,TXT package generated,TRUE,PASS
+C23,DOCX package generated,TRUE,PASS
+C24,XLSX package generated,TRUE,PASS

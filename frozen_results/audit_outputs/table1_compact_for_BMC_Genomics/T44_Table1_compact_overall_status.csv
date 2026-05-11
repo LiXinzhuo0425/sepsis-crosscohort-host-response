@@ -1,0 +1,9 @@
+metric,value
+script,44_make_Table1_main_text_compact.R
+project_dir,/Users/felix/Documents/Sepsis_CrossCohort_scRNA
+n_table_rows,6
+n_table_columns,7
+n_failed_checks,0
+ready_for_manuscript_insertion,YES_AFTER_AUTHOR_VERIFICATION
+main_remaining_risk,"Exact sample-selection rules must still match the analysis code, especially GSE137340 time-point retention, GSE236713 SIRS handling, GSE54514 repeated samples, and GSE65682 comparator selection."
+recommended_next_step,Open the DOCX output and inspect whether the 7-column table fits the manuscript page. Use Additional file S1 for detailed references and audit notes.

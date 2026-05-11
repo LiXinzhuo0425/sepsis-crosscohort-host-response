@@ -1,0 +1,11 @@
+claim_type,statement,rationale,manuscript_location
+Allowed main claim,The signature showed recurrent per-dataset discrimination under strict nested leave-one-dataset-out evaluation.,Supported by median AUROC 0.907 and 4/6 datasets with AUROC >= 0.80.,Abstract Results / Main Results
+Allowed main claim,Calibration and fixed-threshold transportability were unstable across held-out cohorts.,Supported by median absolute threshold shift 0.537 and fixed-threshold sensitivity/specificity failures.,Abstract Results / Main Results / Discussion
+Allowed main claim,The transported host-response signal was predominantly localized to monocyte/myeloid compartments in an independent PBMC scRNA-seq dataset.,Supported by Final10 and NestedRecurrent module scores both highest in Monocyte/Myeloid cells.,Main Results / Discussion
+Allowed secondary claim,Exploratory DCA showed heterogeneous threshold-dependent net benefit.,Supported by DCA summary but limited by heterogeneous contrasts and threshold instability.,Supplementary Results / Discussion
+Allowed secondary claim,GSE54514 represented a transportability failure scenario.,Supported by AUROC 0.568 and poor threshold behavior.,Results / Discussion
+Restriction,Do not claim the model is ready for clinical deployment.,"Calibration, threshold drift and control-type limitations preclude deployment claims.",Discussion limitation
+Restriction,Do not claim same-intended-use external validation.,"Public cohorts differ in population, platform, control type and intended clinical use.",Methods and Discussion limitation
+Restriction,Do not claim fixed threshold is transportable.,Fixed thresholds failed in multiple cohorts.,Discussion limitation
+Restriction,Do not treat scRNA module score analysis as independent diagnostic validation.,"scRNA analysis provides biological localization, not patient-level model validation.",Methods and Discussion limitation
+Restriction,Do not overinterpret healthy-control contrasts as clinical mimic discrimination.,Most contrasts use healthy controls.,Discussion limitation

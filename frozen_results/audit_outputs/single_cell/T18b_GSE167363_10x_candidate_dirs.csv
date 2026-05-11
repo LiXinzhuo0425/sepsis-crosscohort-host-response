@@ -1,0 +1,2 @@
+gsm_guess,data_dir,has_matrix_mtx,has_features_or_genes_tsv,has_barcodes_tsv,complete_10x_mex,n_files_in_dir,sample_title,clinical_group_scRNA,sepsis_status,outcome_group,timepoint,patient_id,dataset
+,/Users/felix/Documents/Sepsis_CrossCohort_scRNA/01_raw_data/scRNA/GSE167363/RAW,TRUE,TRUE,TRUE,TRUE,36,,,,,,,

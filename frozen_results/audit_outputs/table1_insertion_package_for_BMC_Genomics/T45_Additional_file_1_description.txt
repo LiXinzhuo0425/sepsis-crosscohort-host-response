@@ -1,0 +1,3 @@
+Additional file 1: Supplementary Table S1. Source references and cohort-specific verification notes for the included bulk transcriptomic datasets.
+File format: CSV.
+Description: This file provides the primary reference or GEO data source, detailed cohort-background information, and author-side verification notes for the six bulk transcriptomic datasets included in the cross-dataset sepsis analysis.

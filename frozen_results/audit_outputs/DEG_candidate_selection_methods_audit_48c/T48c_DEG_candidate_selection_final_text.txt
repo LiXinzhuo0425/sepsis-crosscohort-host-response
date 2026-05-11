@@ -1,0 +1,11 @@
+METHODS DEG PARAGRAPH
+Differential expression analysis for descriptive bulk transcriptomic characterization was performed using limma on the merged gene-level expression matrix. The limma model included disease group and dataset/batch structure to account for cross-cohort heterogeneity. Genes were considered differentially expressed when they satisfied adjusted P < 0.05 and |log2FC| >= 0.5, with adjusted P values controlled using the Benjamini-Hochberg false-discovery-rate procedure. This merged-matrix DEG analysis was used for descriptive DEG reporting and Figure 2 visualization.
+
+METHODS CANDIDATE-SELECTION PARAGRAPH
+For nested model development, candidate-gene filtering was performed within the training data of each outer LODO split, and held-out cohorts were not used for feature filtering. Genes passing the DEG screen were ranked by adjusted P value and absolute log2 fold-change, with up to 300 candidate DEGs retained for dataset-level screening. Candidate genes were then filtered according to direction consistency across training datasets or folds, mean univariate discriminatory performance, and correlation-based redundancy before glmnet modeling. The predefined filters were direction consistency >= 0.8, mean univariate AUROC >= 0.7, and correlation-based redundancy filtering at |r| >= 0.85. The retained genes were then passed to the nested LODO penalized-regression workflow.
+
+METHODS ROLE-SEPARATION PARAGRAPH
+Thus, the merged-matrix DEG analysis and the training-data candidate-selection procedure served different purposes: the former was used for descriptive visualization, whereas the latter defined the model-development candidate pool under the nested LODO framework.
+
+FIGURE 2 LEGEND REPLACEMENT
+Differentially expressed genes were defined in the descriptive merged-matrix limma analysis as genes satisfying adjusted P < 0.05 and |log2FC| >= 0.5 using Benjamini-Hochberg FDR adjustment. Candidate-gene filtering for model development was performed within the nested LODO training workflow using direction consistency >= 0.8, mean univariate AUROC >= 0.7, and correlation-based redundancy filtering at |r| >= 0.85 before glmnet model fitting.

@@ -1,0 +1,73 @@
+cell_type_level1,clinical_group_scRNA,score_name,n_cells,mean_score,median_score
+B/Plasma cell,Healthy,Final10_score,4123,-0.0979033948571753,-0.107760662511918
+Dendritic cell,Healthy,Final10_score,344,0.000380417598870224,0.000180602793422816
+T/NK cell,Healthy,Final10_score,7218,-0.125010162109226,-0.125422799337956
+Monocyte/Myeloid,Healthy,Final10_score,3786,0.0118443905122453,0.00690015709376671
+Platelet,Healthy,Final10_score,269,-0.0361947327201149,-0.0584535354114202
+Erythroid,Healthy,Final10_score,1,-0.0697512729417735,-0.0697512729417735
+Platelet,Sepsis_nonsurvivor,Final10_score,4268,-0.0543352726092893,-0.068709304539987
+T/NK cell,Sepsis_nonsurvivor,Final10_score,5606,-0.123058987425079,-0.125045699410751
+Monocyte/Myeloid,Sepsis_nonsurvivor,Final10_score,4108,0.207714168985949,0.156217010102795
+B/Plasma cell,Sepsis_nonsurvivor,Final10_score,1984,-0.0679413182990043,-0.0993079722247341
+Erythroid,Sepsis_nonsurvivor,Final10_score,735,-0.023932489671775,-0.0200961289120714
+Dendritic cell,Sepsis_nonsurvivor,Final10_score,5,-0.0159170808942247,-0.039350967830875
+Monocyte/Myeloid,Sepsis_survivor,Final10_score,9096,0.0940203869943866,0.0883491015572734
+T/NK cell,Sepsis_survivor,Final10_score,10500,-0.127279172085629,-0.129044299559045
+B/Plasma cell,Sepsis_survivor,Final10_score,6630,-0.0844694161595632,-0.108664581255346
+Platelet,Sepsis_survivor,Final10_score,719,-0.0554503761756605,-0.0633625993002642
+Erythroid,Sepsis_survivor,Final10_score,176,-0.0324798892122054,-0.0208303078599326
+Dendritic cell,Sepsis_survivor,Final10_score,175,0.016427945095339,0.0159997823985902
+B/Plasma cell,Healthy,NestedRecurrent_score,4123,-0.114341032385029,-0.117596933461099
+Dendritic cell,Healthy,NestedRecurrent_score,344,-0.0561477089434748,-0.0520694910358095
+T/NK cell,Healthy,NestedRecurrent_score,7218,-0.137512240922885,-0.136691218891935
+Monocyte/Myeloid,Healthy,NestedRecurrent_score,3786,-0.0308000712814082,-0.0361312687385037
+Platelet,Healthy,NestedRecurrent_score,269,-0.0776074840834665,-0.10641708808711
+Erythroid,Healthy,NestedRecurrent_score,1,-0.0724735686946059,-0.0724735686946059
+Platelet,Sepsis_nonsurvivor,NestedRecurrent_score,4268,0.00821184726794126,-0.0267256969811546
+T/NK cell,Sepsis_nonsurvivor,NestedRecurrent_score,5606,-0.130977235196894,-0.131231158133503
+Monocyte/Myeloid,Sepsis_nonsurvivor,NestedRecurrent_score,4108,0.193553106563089,0.109939198802774
+B/Plasma cell,Sepsis_nonsurvivor,NestedRecurrent_score,1984,-0.0869983774541194,-0.113674093528795
+Erythroid,Sepsis_nonsurvivor,NestedRecurrent_score,735,-0.0165272639875965,-0.0158194765238958
+Dendritic cell,Sepsis_nonsurvivor,NestedRecurrent_score,5,-0.0501406429603184,-0.0501029161360552
+Monocyte/Myeloid,Sepsis_survivor,NestedRecurrent_score,9096,0.0481452840301629,0.0334602616420502
+T/NK cell,Sepsis_survivor,NestedRecurrent_score,10500,-0.143446776089115,-0.143054129018515
+B/Plasma cell,Sepsis_survivor,NestedRecurrent_score,6630,-0.103775134791961,-0.124346960938217
+Platelet,Sepsis_survivor,NestedRecurrent_score,719,-0.0356725866290947,-0.0878273543814534
+Erythroid,Sepsis_survivor,NestedRecurrent_score,176,-0.0294506137598402,-0.0199783486655535
+Dendritic cell,Sepsis_survivor,NestedRecurrent_score,175,-0.027333534721988,-0.0325483735676991
+B/Plasma cell,Healthy,MyeloidInnateUp_score,4123,-0.0294517154886574,-0.0284318986592543
+Dendritic cell,Healthy,MyeloidInnateUp_score,344,-0.0432309757146993,-0.0458517631872157
+T/NK cell,Healthy,MyeloidInnateUp_score,7218,-0.0296848152842199,-0.0288962707350019
+Monocyte/Myeloid,Healthy,MyeloidInnateUp_score,3786,-0.0140934888860992,-0.0341441531956311
+Platelet,Healthy,MyeloidInnateUp_score,269,-0.0286091024722467,-0.0276584799411582
+Erythroid,Healthy,MyeloidInnateUp_score,1,-0.0377366936375081,-0.0377366936375081
+Platelet,Sepsis_nonsurvivor,MyeloidInnateUp_score,4268,-0.0256617825391757,-0.0245770385998354
+T/NK cell,Sepsis_nonsurvivor,MyeloidInnateUp_score,5606,-0.031199559310031,-0.0308776688930063
+Monocyte/Myeloid,Sepsis_nonsurvivor,MyeloidInnateUp_score,4108,0.163084781936142,0.0759048320101554
+B/Plasma cell,Sepsis_nonsurvivor,MyeloidInnateUp_score,1984,-0.031960794560934,-0.0313492770856811
+Erythroid,Sepsis_nonsurvivor,MyeloidInnateUp_score,735,-0.00293791927732246,-0.00463127140047316
+Dendritic cell,Sepsis_nonsurvivor,MyeloidInnateUp_score,5,-0.0470726488422085,-0.0468763276168672
+Monocyte/Myeloid,Sepsis_survivor,MyeloidInnateUp_score,9096,0.0706575947006043,0.0456938017893669
+T/NK cell,Sepsis_survivor,MyeloidInnateUp_score,10500,-0.0367183864456474,-0.0364579822750522
+B/Plasma cell,Sepsis_survivor,MyeloidInnateUp_score,6630,-0.0345599773001471,-0.0339445368471616
+Platelet,Sepsis_survivor,MyeloidInnateUp_score,719,-0.0315195741729397,-0.0286463750706059
+Erythroid,Sepsis_survivor,MyeloidInnateUp_score,176,-0.00388131592866545,-0.00659606907366385
+Dendritic cell,Sepsis_survivor,MyeloidInnateUp_score,175,-0.00161203350504878,-0.0205366185850286
+B/Plasma cell,Healthy,AdaptiveOrNonmyeloid_score,4123,-0.166520776284881,-0.181957918725952
+Dendritic cell,Healthy,AdaptiveOrNonmyeloid_score,344,-0.00469096439159097,-0.00146189357823112
+T/NK cell,Healthy,AdaptiveOrNonmyeloid_score,7218,-0.191146497976324,-0.190613209201664
+Monocyte/Myeloid,Healthy,AdaptiveOrNonmyeloid_score,3786,0.0311796153531203,0.0249219524420317
+Platelet,Healthy,AdaptiveOrNonmyeloid_score,269,-0.0860078310115588,-0.136728011474336
+Erythroid,Healthy,AdaptiveOrNonmyeloid_score,1,-0.0970515940305424,-0.0970515940305424
+Platelet,Sepsis_nonsurvivor,AdaptiveOrNonmyeloid_score,4268,0.056336709485686,0.0087794995436498
+T/NK cell,Sepsis_nonsurvivor,AdaptiveOrNonmyeloid_score,5606,-0.178706229994235,-0.180172680290266
+Monocyte/Myeloid,Sepsis_nonsurvivor,AdaptiveOrNonmyeloid_score,4108,0.305828491989567,0.247063450766766
+B/Plasma cell,Sepsis_nonsurvivor,AdaptiveOrNonmyeloid_score,1984,-0.108029233475116,-0.159258137358693
+Erythroid,Sepsis_nonsurvivor,AdaptiveOrNonmyeloid_score,735,-0.0393698018667385,-0.0375588049470542
+Dendritic cell,Sepsis_nonsurvivor,AdaptiveOrNonmyeloid_score,5,-0.0228474691415825,-0.078938726822274
+Monocyte/Myeloid,Sepsis_survivor,AdaptiveOrNonmyeloid_score,9096,0.10210293738449,0.0982005667326351
+T/NK cell,Sepsis_survivor,AdaptiveOrNonmyeloid_score,10500,-0.191819510667139,-0.193604471040306
+B/Plasma cell,Sepsis_survivor,AdaptiveOrNonmyeloid_score,6630,-0.141171513461789,-0.180011846096296
+Platelet,Sepsis_survivor,AdaptiveOrNonmyeloid_score,719,-0.0209499355135558,-0.114712689586185
+Erythroid,Sepsis_survivor,AdaptiveOrNonmyeloid_score,176,-0.0556802973489523,-0.0420503946410192
+Dendritic cell,Sepsis_survivor,AdaptiveOrNonmyeloid_score,175,-0.036494238698961,-0.0350394901291083

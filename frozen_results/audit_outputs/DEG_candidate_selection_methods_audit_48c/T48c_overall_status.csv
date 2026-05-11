@@ -1,0 +1,15 @@
+metric,value
+script,48c_force_finalize_DEG_candidate_thresholds.R
+project_dir,/Users/felix/Documents/Sepsis_CrossCohort_scRNA
+main_deg_script,/Users/felix/Documents/Sepsis_CrossCohort_scRNA/03_scripts/04_expression_annotation_merge_DEG.R
+candidate_script,/Users/felix/Documents/Sepsis_CrossCohort_scRNA/03_scripts/07_candidate_gene_selection_preparation.R
+correlation_script,/Users/felix/Documents/Sepsis_CrossCohort_scRNA/03_scripts/07b_candidate_gene_refinement_for_modeling.R
+deg_threshold,adjusted P < 0.05 and |log2FC| >= 0.5
+adjust_method,Benjamini-Hochberg FDR
+max_candidate_genes,300
+direction_consistency_threshold,0.8
+univariate_auc_threshold,0.7
+correlation_threshold,0.85
+n_failed_checks,0
+ready_for_manuscript_insertion,YES_INSERT_DEG_CANDIDATE_METHODS_TEXT
+recommended_next_step,Use T48c final text package to replace vague DEG-threshold and frozen-workflow wording in Methods and Figure 2 legend.

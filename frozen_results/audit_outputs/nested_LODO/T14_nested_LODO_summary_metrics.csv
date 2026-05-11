@@ -1,0 +1,15 @@
+metric,value
+n_validation_datasets,6
+median_AUROC,0.907263492063492
+min_AUROC,0.568253968253968
+max_AUROC,1
+median_AUPRC,0.933965721296246
+median_Brier,0.244673090632664
+n_AUROC_ge_0.80,4
+n_AUROC_lt_0.80,2
+median_abs_calibration_in_the_large,0.200323221032185
+median_abs_threshold_shift,0.537339864601492
+max_abs_threshold_shift,0.697171075242395
+n_fixed_sensitivity_lt_0.20,2
+n_fixed_specificity_lt_0.20,1
+n_genes_selected_in_all_folds,2

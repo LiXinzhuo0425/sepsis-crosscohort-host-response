@@ -1,0 +1,52 @@
+R version 4.5.2 (2025-10-31)
+Platform: aarch64-apple-darwin20
+Running under: macOS Tahoe 26.4.1
+
+Matrix products: default
+BLAS:   /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+time zone: Asia/Shanghai
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] fs_1.6.6            GEOquery_2.78.0     Biobase_2.70.0      BiocGenerics_0.56.0 generics_0.1.4      tidyr_1.3.2         purrr_1.2.1         readxl_1.4.5        flextable_0.9.10   
+[10] officer_0.7.3       openxlsx_4.2.8.1    pROC_1.19.0.1       ggplot2_4.0.3       stringr_1.6.0       tibble_3.3.1        dplyr_1.1.4         readr_2.1.6        
+
+loaded via a namespace (and not attached):
+  [1] splines_4.5.2               polspline_1.1.25            ggplotify_0.1.3             R.oo_1.27.1                 cellranger_1.1.0            polyclip_1.10-7            
+  [7] hardhat_1.4.3               XML_3.99-0.20               rpart_4.1.24                lifecycle_1.0.5             httr2_1.2.2                 globals_0.18.0             
+ [13] lattice_0.22-7              vroom_1.6.7                 MASS_7.3-65                 backports_1.5.0             magrittr_2.0.4              limma_3.66.0               
+ [19] Hmisc_5.2-5                 rmarkdown_2.30              otel_0.2.0                  ggtangle_0.1.1              zip_2.3.3                   askpass_1.2.1              
+ [25] cowplot_1.2.0               DBI_1.2.3                   RColorBrewer_1.1-3          lubridate_1.9.4             multcomp_1.4-29             abind_1.4-8                
+ [31] GenomicRanges_1.62.1        R.utils_2.13.0              TH.data_1.1-5               yulab.utils_0.2.3           nnet_7.3-20                 sandwich_3.1-1             
+ [37] tweenr_2.0.3                rappdirs_0.3.3              ipred_0.9-15                lava_1.8.2                  gdtools_0.4.4               IRanges_2.44.0             
+ [43] S4Vectors_0.48.0            enrichplot_1.30.4           ggrepel_0.9.6               listenv_0.10.0              tidytree_0.4.7              rentrez_1.2.4              
+ [49] xslt_1.5.1                  MatrixModels_0.5-4          parallelly_1.46.1           codetools_0.2-20            DelayedArray_0.36.0         DOSE_4.4.0                 
+ [55] xml2_1.5.1                  ggforce_0.5.0               tidyselect_1.2.1            PRROC_1.4                   shape_1.4.6.1               aplot_0.2.9                
+ [61] farver_2.1.2                matrixStats_1.5.0           stats4_4.5.2                base64enc_0.1-3             Seqinfo_1.0.0               jsonlite_2.0.0             
+ [67] caret_7.0-1                 Formula_1.2-5               survival_3.8-3              iterators_1.0.14            systemfonts_1.3.1           foreach_1.5.2              
+ [73] tools_4.5.2                 ggnewscale_0.5.2            treeio_1.34.0               ragg_1.5.0                  Rcpp_1.1.1                  glue_1.8.0                 
+ [79] prodlim_2025.04.28          gridExtra_2.3               SparseArray_1.10.8          xfun_0.55                   qvalue_2.42.0               MatrixGenerics_1.22.0      
+ [85] withr_3.0.2                 BiocManager_1.30.27         fastmap_1.2.0               SparseM_1.84-2              openssl_2.3.4               digest_0.6.39              
+ [91] timechange_0.3.0            R6_2.6.1                    gridGraphics_0.5-1          colorspace_2.1-2            textshaping_1.0.4           GO.db_3.22.0               
+ [97] RSQLite_2.4.5               R.methodsS3_1.8.2           utf8_1.2.6                  recipes_1.3.1               fontLiberation_0.1.0        data.table_1.18.4          
+[103] class_7.3-23                httr_1.4.7                  htmlwidgets_1.6.4           S4Arrays_1.10.1             scatterpie_0.2.6            ModelMetrics_1.2.2.2       
+[109] pkgconfig_2.0.3             gtable_0.3.6                timeDate_4051.111           blob_1.3.0                  S7_0.2.1                    XVector_0.50.0             
+[115] clusterProfiler_4.18.4      htmltools_0.5.9             fontBitstreamVera_0.1.1     fgsea_1.36.2                scales_1.4.0                png_0.1-8                  
+[121] gower_1.0.2                 ggfun_0.2.0                 knitr_1.51                  rstudioapi_0.17.1           tzdb_0.5.0                  reshape2_1.4.5             
+[127] uuid_1.2-1                  checkmate_2.3.3             nlme_3.1-168                curl_7.0.0                  zoo_1.8-15                  cachem_1.1.0               
+[133] parallel_4.5.2              foreign_0.8-90              AnnotationDbi_1.72.0        pillar_1.11.1               grid_4.5.2                  vctrs_0.6.5                
+[139] tidydr_0.0.6                cluster_2.1.8.1             yardstick_1.4.0             htmlTable_2.4.3             evaluate_1.0.5              mvtnorm_1.3-3              
+[145] cli_3.6.5                   compiler_4.5.2              rlang_1.1.7                 crayon_1.5.3                rms_8.1-1                   future.apply_1.20.1        
+[151] plyr_1.8.9                  ggiraph_0.9.3               stringi_1.8.7               BiocParallel_1.44.0         Biostrings_2.78.0           lazyeval_0.2.2             
+[157] quantreg_6.1                glmnet_5.0                  V8_8.0.1                    GOSemSim_2.36.0             fontquiver_0.2.1            Matrix_1.7-4               
+[163] hms_1.1.4                   patchwork_1.3.2             future_1.68.0               bit64_4.6.0-1               KEGGREST_1.50.0             statmod_1.5.1              
+[169] SummarizedExperiment_1.40.0 igraph_2.2.1                memoise_2.0.1               ggtree_4.0.4                fastmatch_1.1-8             bit_4.6.0                  
+[175] katex_1.5.0                 equatags_0.2.2              ape_5.8-1                   gson_0.1.0                 

@@ -1,0 +1,17 @@
+check_id,check_item,observed,status
+C01,All six datasets retained,TRUE,PASS
+C02,Compact table has seven columns,TRUE,PASS
+C03,No missing dataset,TRUE,PASS
+C04,No missing platform,TRUE,PASS
+C05,No missing sample source,TRUE,PASS
+C06,No missing case definition,TRUE,PASS
+C07,No missing comparator used,TRUE,PASS
+C08,No missing sample-handling note,TRUE,PASS
+C09,No missing role in this study,TRUE,PASS
+C10,Dataset order matches expected order,TRUE,PASS
+C11,No PMID or DOI strings in compact main-text table,TRUE,PASS
+C12,No forbidden internal-audit phrases in compact table,TRUE,PASS
+C13,GSE54514 role shortened as transportability stress scenario,TRUE,PASS
+C14,Additional file S1 generated,TRUE,PASS
+C15,DOCX compact table generated,TRUE,PASS
+C16,XLSX workbook generated,TRUE,PASS

@@ -1,0 +1,5 @@
+metric,value
+n_samples_in_metadata,12
+n_samples_reorganized,12
+n_complete_10x_mex_dirs,12
+per_sample_10x_dir,/Users/felix/Documents/Sepsis_CrossCohort_scRNA/01_raw_data/scRNA/GSE167363/per_sample_10x

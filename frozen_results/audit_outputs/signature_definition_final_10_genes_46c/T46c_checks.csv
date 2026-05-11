@@ -1,0 +1,25 @@
+check_id,check_item,observed,status
+C01,Forced final gene-set source exists,TRUE,PASS
+C02,Final gene-set source has detectable gene column,TRUE,PASS
+C03,Final gene-set source has detectable group/set column or equivalent extraction,TRUE,PASS
+C04,Exactly 10 final genes extracted,TRUE,PASS
+C05,No V1 artifact in final gene list,TRUE,PASS
+C06,No FINAL10 label artifact in final gene list,TRUE,PASS
+C07,Six nested LODO fold metric paths defined,TRUE,PASS
+C08,All existing nested fold metric files were processed,TRUE,PASS
+C09,All final genes have occurrence count,TRUE,PASS
+C10,Occurrence counts are within 0 to 6,TRUE,PASS
+C11,Main DEG table found,TRUE,PASS
+C12,All final genes have direction,TRUE,PASS
+C13,Bulk model candidate sources checked,TRUE,PASS
+C14,Single-cell candidate sources checked,TRUE,PASS
+C15,All final genes detected in single-cell module-score sources,TRUE,PASS
+C16,Signature versus recurrent nested gene-set comparison generated,TRUE,PASS
+C17,Methods signature definition text generated,TRUE,PASS
+C18,Results signature definition text generated,TRUE,PASS
+C19,Table 2 footnote generated,TRUE,PASS
+C20,Additional file 2 section generated,TRUE,PASS
+C21,CSV final signature table generated,TRUE,PASS
+C22,DOCX signature table generated,TRUE,PASS
+C23,DOCX insertion text generated,TRUE,PASS
+C24,XLSX workbook generated,TRUE,PASS

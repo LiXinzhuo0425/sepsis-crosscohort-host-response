@@ -1,0 +1,22 @@
+item,value
+freeze_date,2026-05-08 18:57:31 CST
+bulk_total_samples,484
+bulk_sepsis,333
+bulk_control,151
+n_bulk_datasets,6
+nested_LODO_median_AUROC,0.907263492063493
+nested_LODO_min_AUROC,0.568253968253968
+nested_LODO_AUROC_ge_0.80_datasets,4
+pooled_nested_LODO_AUROC,0.721933854384186
+pooled_nested_LODO_Brier,0.333489146055543
+median_abs_threshold_shift,0.537339864601492
+max_abs_threshold_shift,0.697171075242395
+fixed_sensitivity_lt_0.20_datasets,2
+fixed_specificity_lt_0.20_datasets,1
+genes_selected_all_nested_folds,"CD177, TDRD9"
+RNAseq_validation_status,NO_GO_no_eligible_RNAseq_dataset_detected
+scRNA_cells,59743
+scRNA_clusters,25
+scRNA_top_Final10_celltype,Monocyte/Myeloid
+scRNA_top_NestedRecurrent_celltype,Monocyte/Myeloid
+overall_ready_status,READY_FOR_MANUSCRIPT_WITH_RESTRICTIONS

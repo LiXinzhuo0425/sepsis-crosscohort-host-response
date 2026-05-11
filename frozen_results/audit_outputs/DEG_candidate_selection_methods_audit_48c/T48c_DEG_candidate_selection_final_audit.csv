@@ -1,0 +1,18 @@
+method_item,final_decision,evidence,status
+Main DEG script,/Users/felix/Documents/Sepsis_CrossCohort_scRNA/03_scripts/04_expression_annotation_merge_DEG.R,Located by filename or limma/DEG code pattern.,READY
+Candidate selection script,/Users/felix/Documents/Sepsis_CrossCohort_scRNA/03_scripts/07_candidate_gene_selection_preparation.R,Located by filename or candidate-selection threshold pattern.,READY
+Correlation filtering source script,/Users/felix/Documents/Sepsis_CrossCohort_scRNA/03_scripts/07b_candidate_gene_refinement_for_modeling.R,Located by correlation-threshold code pattern.,READY_OR_CARRIED_FORWARD
+Main DEG software,limma linear modeling with empirical Bayes moderation,Main DEG script includes limma code.,READY
+Main DEG matrix/source,Merged gene-level expression matrix across included bulk cohorts,Main DEG script includes merged expression objects.,READY
+Main DEG model,Batch-aware limma model including disease group and dataset/batch structure,Main DEG script includes design/dataset/batch-related code.,READY
+DEG threshold,adjusted P < 0.05 and |log2FC| >= 0.5,Main DEG script includes adj.P.Val and abs(logFC) threshold logic.,READY
+Adjusted P correction,Benjamini-Hochberg FDR,limma topTable adjusted P values; BH/FDR method used for multiple-testing correction.,READY
+Main DEG manuscript role,Used for descriptive DEG reporting and Figure 2 visualization,Main DEG outputs are used for DEG reporting and visualization.,READY
+Candidate selection DEG role,Candidate filtering for nested LODO model development used training-data candidate-selection evidence; held-out cohorts were not used for feature filtering within outer LODO splits.,"Candidate-selection traces include candidate DEG, direction consistency, AUROC, and training/fold context.",READY
+Maximum initial candidate DEG count,300,Candidate script contains max_candidate_genes assignment.,READY
+Direction consistency threshold,>= 0.8,Candidate script contains min_direction_consistency assignment.,READY
+Univariate AUROC threshold,>= 0.7,Candidate script contains min_mean_auc assignment.,READY
+Correlation filtering threshold,|r| >= 0.85 treated as high redundancy for correlation filtering,Correlation threshold source detected or carried forward from Step 48.,READY
+Candidate selection order,DEG screen -> cap initial DEG candidates by adjusted P and |log2FC| ranking -> direction consistency -> mean univariate AUROC -> correlation-based redundancy filtering -> nested glmnet modeling,Candidate-selection code and audit trace.,READY
+Leakage-control wording,Feature filtering and candidate selection for nested LODO model development were restricted to training cohorts within each outer split.,Nested LODO leakage-control logic from method design.,READY
+Figure 2 wording,Replace vague frozen-workflow phrasing with explicit DEG threshold and downstream filters.,Generated in 48c.,READY

@@ -1,0 +1,12 @@
+metric,value
+n_datasets_scanned,22
+n_known_microarray_datasets,8
+n_RNAseq_counts_likely,0
+n_RNAseq_normalized_likely,0
+n_RNAseq_normalized_possible,0
+n_eligible_for_16_RNAseq_validation,0
+n_possible_requires_manual_verification,0
+eligible_datasets,""
+possible_datasets,""
+go_no_go_decision,NO_GO_no_eligible_RNAseq_dataset_detected
+recommended_next_step,Record attempted RNA-seq screening transparently and proceed to final_freeze without RNA-seq validation.

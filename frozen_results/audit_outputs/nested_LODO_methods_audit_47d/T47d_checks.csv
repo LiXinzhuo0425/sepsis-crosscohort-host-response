@@ -1,0 +1,23 @@
+check_id,check_item,observed,status
+C01,Project directory exists,TRUE,PASS
+C02,47c trace file exists or manual evidence provided,TRUE,PASS
+C03,Nested LODO inner CV set to 5-fold,TRUE,PASS
+C04,Final compact model CV set to 10-fold,TRUE,PASS
+C05,lambda.1se selected,TRUE,PASS
+C06,No class weights reported,TRUE,PASS
+C07,No resampling reported,TRUE,PASS
+C08,Alpha grid reported,TRUE,PASS
+C09,Youden threshold reported,TRUE,PASS
+C10,pROC DeLong AUROC CI reported,TRUE,PASS
+C11,PRROC AUPRC reported,TRUE,PASS
+C12,Brier score formula reported,TRUE,PASS
+C13,Calibration method reported,TRUE,PASS
+C14,Missing-value handling reported,TRUE,PASS
+C15,Leakage control reported,TRUE,PASS
+C16,No placeholder fold text remains,TRUE,PASS
+C17,No NEEDS_MANUAL_CONFIRMATION remains,TRUE,PASS
+C18,Final audit table generated,TRUE,PASS
+C19,TXT methods text generated,TRUE,PASS
+C20,DOCX methods text generated,TRUE,PASS
+C21,XLSX workbook generated,TRUE,PASS
+C22,CSV checks ready,FALSE,CHECK

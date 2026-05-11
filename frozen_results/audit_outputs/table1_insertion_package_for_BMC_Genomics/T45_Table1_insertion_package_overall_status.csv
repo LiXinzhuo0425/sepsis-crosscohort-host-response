@@ -1,0 +1,8 @@
+metric,value
+script,45_make_Table1_insertion_package.R
+project_dir,/Users/felix/Documents/Sepsis_CrossCohort_scRNA
+n_failed_checks,0
+ready_for_manuscript_insertion,YES_INSERT_TABLE1_AND_TEXT
+table1_source,/Users/felix/Documents/Sepsis_CrossCohort_scRNA/04_results/table1_compact_for_BMC_Genomics/T44_Table1_BMC_Genomics_main_text_compact.csv
+additional_file_s1_source,/Users/felix/Documents/Sepsis_CrossCohort_scRNA/04_results/table1_compact_for_BMC_Genomics/T44_Table1_BMC_Genomics_additional_file_S1.csv
+recommended_next_step,"Open T45_Table1_insertion_text.docx and copy the title, footnote, Methods paragraph, and Additional file 1 section into the manuscript. Keep the Step 44 compact DOCX as the main Table 1 source."

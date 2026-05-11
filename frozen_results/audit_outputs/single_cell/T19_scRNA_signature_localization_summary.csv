@@ -1,0 +1,10 @@
+metric,value
+n_cells,59743
+n_clusters,25
+n_cell_type_level1,6
+n_final10_genes_present,10
+n_nested_recurrent_genes_present,10
+top_celltype_Final10_score,Monocyte/Myeloid
+top_celltype_NestedRecurrent_score,Monocyte/Myeloid
+top_celltype_Final10_mean_score,0.103198476090323
+top_celltype_NestedRecurrent_mean_score,0.0657113946691065

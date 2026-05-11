@@ -1,0 +1,13 @@
+gsm,sample_title,sample_label,data_dir,complete_10x_mex,has_matrix_mtx,has_features_tsv,has_barcodes_tsv,clinical_group_scRNA,sepsis_status,outcome_group,timepoint,patient_id,dataset
+GSM5102900,HC1,GSM5102900_HC1,/Users/felix/Documents/Sepsis_CrossCohort_scRNA/01_raw_data/scRNA/GSE167363/per_sample_10x/GSM5102900_HC1,TRUE,TRUE,TRUE,TRUE,Healthy,Healthy,Healthy,Healthy,HC1,GSE167363
+GSM5102901,HC2,GSM5102901_HC2,/Users/felix/Documents/Sepsis_CrossCohort_scRNA/01_raw_data/scRNA/GSE167363/per_sample_10x/GSM5102901_HC2,TRUE,TRUE,TRUE,TRUE,Healthy,Healthy,Healthy,Healthy,HC2,GSE167363
+GSM5102902,NS LS T0,GSM5102902_NS_LS_T0,/Users/felix/Documents/Sepsis_CrossCohort_scRNA/01_raw_data/scRNA/GSE167363/per_sample_10x/GSM5102902_NS_LS_T0,TRUE,TRUE,TRUE,TRUE,Sepsis_nonsurvivor,Sepsis,Non_survivor,T0,NS_LS,GSE167363
+GSM5102903,NS LS T6,GSM5102903_NS_LS_T6,/Users/felix/Documents/Sepsis_CrossCohort_scRNA/01_raw_data/scRNA/GSE167363/per_sample_10x/GSM5102903_NS_LS_T6,TRUE,TRUE,TRUE,TRUE,Sepsis_nonsurvivor,Sepsis,Non_survivor,T6,NS_LS,GSE167363
+GSM5102904,S1 T0,GSM5102904_S1_T0,/Users/felix/Documents/Sepsis_CrossCohort_scRNA/01_raw_data/scRNA/GSE167363/per_sample_10x/GSM5102904_S1_T0,TRUE,TRUE,TRUE,TRUE,Sepsis_survivor,Sepsis,Survivor,T0,S1,GSE167363
+GSM5102905,S1 T6,GSM5102905_S1_T6,/Users/felix/Documents/Sepsis_CrossCohort_scRNA/01_raw_data/scRNA/GSE167363/per_sample_10x/GSM5102905_S1_T6,TRUE,TRUE,TRUE,TRUE,Sepsis_survivor,Sepsis,Survivor,T6,S1,GSE167363
+GSM5511351,NS ES_T0,GSM5511351_NS_ES_T0,/Users/felix/Documents/Sepsis_CrossCohort_scRNA/01_raw_data/scRNA/GSE167363/per_sample_10x/GSM5511351_NS_ES_T0,TRUE,TRUE,TRUE,TRUE,Sepsis_nonsurvivor,Sepsis,Non_survivor,T0,NS_ES,GSE167363
+GSM5511352,NS ES_T6,GSM5511352_NS_ES_T6,/Users/felix/Documents/Sepsis_CrossCohort_scRNA/01_raw_data/scRNA/GSE167363/per_sample_10x/GSM5511352_NS_ES_T6,TRUE,TRUE,TRUE,TRUE,Sepsis_nonsurvivor,Sepsis,Non_survivor,T6,NS_ES,GSE167363
+GSM5511353,S2_T0,GSM5511353_S2_T0,/Users/felix/Documents/Sepsis_CrossCohort_scRNA/01_raw_data/scRNA/GSE167363/per_sample_10x/GSM5511353_S2_T0,TRUE,TRUE,TRUE,TRUE,Sepsis_survivor,Sepsis,Survivor,T0,S2,GSE167363
+GSM5511354,S2_T6,GSM5511354_S2_T6,/Users/felix/Documents/Sepsis_CrossCohort_scRNA/01_raw_data/scRNA/GSE167363/per_sample_10x/GSM5511354_S2_T6,TRUE,TRUE,TRUE,TRUE,Sepsis_survivor,Sepsis,Survivor,T6,S2,GSE167363
+GSM5511355,S3_T0,GSM5511355_S3_T0,/Users/felix/Documents/Sepsis_CrossCohort_scRNA/01_raw_data/scRNA/GSE167363/per_sample_10x/GSM5511355_S3_T0,TRUE,TRUE,TRUE,TRUE,Sepsis_survivor,Sepsis,Survivor,T0,S3,GSE167363
+GSM5511356,S3_T6,GSM5511356_S3_T6,/Users/felix/Documents/Sepsis_CrossCohort_scRNA/01_raw_data/scRNA/GSE167363/per_sample_10x/GSM5511356_S3_T6,TRUE,TRUE,TRUE,TRUE,Sepsis_survivor,Sepsis,Survivor,T6,S3,GSE167363

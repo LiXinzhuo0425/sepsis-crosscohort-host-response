@@ -1,0 +1,13 @@
+clinical_group_scRNA,score_name,n_cells,mean_score,median_score
+Healthy,Final10_score,15741,-0.080732574508723,-0.113360330863038
+Sepsis_nonsurvivor,Final10_score,16706,-0.0132256292125949,-0.0795158683890305
+Sepsis_survivor,Final10_score,27296,-0.0397114773782249,-0.104563415541071
+Healthy,NestedRecurrent_score,15741,-0.102970853188487,-0.124391351479794
+Sepsis_nonsurvivor,NestedRecurrent_score,16706,-0.00533323822145953,-0.0917496206091649
+Sepsis_survivor,NestedRecurrent_score,27296,-0.0656472030866224,-0.119443263068371
+Healthy,MyeloidInnateUp_score,15741,-0.0261519223371154,-0.0299188848821479
+Sepsis_nonsurvivor,MyeloidInnateUp_score,16706,0.0191379214954207,-0.0249002286522262
+Sepsis_survivor,MyeloidInnateUp_score,27296,0.000161121883068992,-0.0305933515989119
+Healthy,AdaptiveOrNonmyeloid_score,15741,-0.125345366188654,-0.177019684658737
+Sepsis_nonsurvivor,AdaptiveOrNonmyeloid_score,16706,0.0150592813897988,-0.116014549272061
+Sepsis_survivor,AdaptiveOrNonmyeloid_score,27296,-0.0751975712759113,-0.161414691459433

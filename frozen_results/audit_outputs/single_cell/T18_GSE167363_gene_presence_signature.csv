@@ -1,0 +1,17 @@
+gene_symbol,in_scRNA_features,in_variable_features,in_scaled_features,gene_set
+RAB31,TRUE,TRUE,TRUE,Final10_and_nested_recurrent
+VNN1,TRUE,FALSE,TRUE,Final10_and_nested_recurrent
+TCN1,TRUE,TRUE,TRUE,Final10_only
+EMILIN2,TRUE,TRUE,TRUE,Final10_only
+ZDHHC19,TRUE,TRUE,TRUE,Final10_only
+ANKRD22,TRUE,TRUE,TRUE,Final10_and_nested_recurrent
+PGLYRP1,TRUE,TRUE,TRUE,Final10_only
+FAM20A,TRUE,FALSE,TRUE,Final10_only
+RNASE3,TRUE,TRUE,TRUE,Final10_and_nested_recurrent
+HK3,TRUE,FALSE,TRUE,Final10_only
+CD177,TRUE,TRUE,TRUE,Nested_recurrent_only
+TDRD9,TRUE,FALSE,TRUE,Nested_recurrent_only
+LILRA6,TRUE,FALSE,TRUE,Nested_recurrent_only
+ARG1,TRUE,TRUE,TRUE,Nested_recurrent_only
+C3AR1,TRUE,TRUE,TRUE,Nested_recurrent_only
+WFDC1,TRUE,TRUE,TRUE,Nested_recurrent_only

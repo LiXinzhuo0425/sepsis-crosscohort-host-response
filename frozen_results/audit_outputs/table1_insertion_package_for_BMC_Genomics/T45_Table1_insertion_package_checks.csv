@@ -1,0 +1,19 @@
+check_id,check_item,observed,status
+C01,Step 44 compact CSV exists,TRUE,PASS
+C02,Step 44 compact DOCX exists,TRUE,PASS
+C03,Step 44 Additional file S1 CSV exists,TRUE,PASS
+C04,Compact Table 1 has six rows,TRUE,PASS
+C05,Compact Table 1 has seven columns,TRUE,PASS
+C06,All expected datasets present,TRUE,PASS
+C07,Methods paragraph mentions Table 1,TRUE,PASS
+C08,Methods paragraph mentions Supplementary Table S1,TRUE,PASS
+C09,Additional file in-text sentence mentions Additional file 1,TRUE,PASS
+C10,Additional files section includes file name,TRUE,PASS
+C11,Additional files section includes file format,TRUE,PASS
+C12,Additional files section includes title,TRUE,PASS
+C13,Additional files section includes description,TRUE,PASS
+C14,Table footnote mentions predefined binary sample-selection framework,TRUE,PASS
+C15,"Abbreviations include GEO, ICU and SIRS",TRUE,PASS
+C16,Insertion Word document generated,TRUE,PASS
+C17,Insertion plain-text document generated,TRUE,PASS
+C18,Insertion workbook generated,TRUE,PASS

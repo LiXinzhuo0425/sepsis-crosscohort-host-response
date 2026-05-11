@@ -1,0 +1,18 @@
+TABLE 1 TITLE
+Table 1. Bulk transcriptomic datasets included in the cross-dataset sepsis analysis
+
+TABLE 1 FOOTNOTE
+Comparator groups and intermediate or repeated samples were defined according to the predefined binary sample-selection framework used in the current analysis. Detailed source references and cohort-specific verification notes are provided in Supplementary Table S1.
+
+Abbreviations: GEO, Gene Expression Omnibus; ICU, intensive care unit; SIRS, systemic inflammatory response syndrome.
+
+METHODS REFERENCE PARAGRAPH
+To minimize ambiguity in cross-cohort comparisons, each dataset was documented with respect to platform, sample source, case definition, comparator definition, intermediate or repeated sample handling, and analytical role in the present study (Table 1). Detailed source references and cohort-specific verification notes are provided in Supplementary Table S1.
+
+ADDITIONAL FILE 1 IN-TEXT SENTENCE
+Detailed source references and cohort-specific verification notes are provided in Supplementary Table S1 [see Additional file 1].
+
+ADDITIONAL FILES SECTION
+Additional file 1: Supplementary Table S1. Source references and cohort-specific verification notes for the included bulk transcriptomic datasets.
+File format: CSV.
+Description: This file provides the primary reference or GEO data source, detailed cohort-background information, and author-side verification notes for the six bulk transcriptomic datasets included in the cross-dataset sepsis analysis.

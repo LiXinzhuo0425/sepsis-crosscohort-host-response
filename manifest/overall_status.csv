@@ -1,0 +1,11 @@
+metric,value
+script,49_prepare_repository_release_v1.R
+project_dir,/Users/felix/Documents/Sepsis_CrossCohort_scRNA
+release_dir,/Users/felix/Documents/Sepsis_CrossCohort_scRNA/repository_release_v1
+n_release_files,568
+n_files_for_github_and_zenodo,567
+n_files_for_zenodo_only_or_review,1
+largest_file_mb,66.631
+n_failed_checks,0
+ready_for_github_upload,YES_UPLOAD_TO_GITHUB
+recommended_next_step,"Open repository_release_v1, review README.md and manifest/release_manifest.csv, then upload the folder contents to a public GitHub repository and archive the first release in Zenodo."

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the archived Zenodo release."
+title: "Sepsis cross-cohort host-response transcriptomic signature"
+version: "1.0.0"
+date-released: "2026-05-11"
+authors:
+  - family-names: "Li"
+    given-names: "Xinzhuo"
+repository-code: "https://github.com/USERNAME/sepsis-crosscohort-host-response"
+license: "MIT"
+keywords:
+  - sepsis
+  - transcriptomics
+  - GEO
+  - nested LODO
+  - glmnet
+  - host response

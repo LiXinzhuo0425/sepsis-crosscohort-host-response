@@ -1,0 +1,11 @@
+decision_id,decision,evidence_or_source
+D01_primary_analysis_identity,Cross-cohort transportability evaluation of a host-response transcriptomic sepsis diagnostic signature.,T20 key numbers; T21 claims/restrictions
+D02_main_validation_framework,Strict nested leave-one-dataset-out validation is the primary validation framework.,T14 nested LODO outputs; T20 Table 2
+D03_RNAseq_external_validation,RNA-seq external platform validation was not performed because local screening detected no eligible RNA-seq dataset.,T16b Go/No-Go: NO_GO_no_eligible_RNAseq_dataset_detected
+D04_scRNA_role,"scRNA-seq is used for biological localization only, not diagnostic validation.",T19 scRNA localization outputs; T20 Table 4
+D05_DCA_role,Decision-curve analysis is exploratory because calibration and threshold behavior are unstable and cohort contrasts are heterogeneous.,T17 DCA outputs; T21 risk flags
+D06_threshold_claim,Fixed threshold is not considered transportable.,T17 threshold drift; T20 Table 3; T21 risk flags
+D07_clinical_deployment_claim,No claim of clinical deployment readiness will be made.,T21 recommended claims and restrictions
+D08_failed_transport_dataset,GSE54514 is retained and interpreted as a transportability failure scenario.,T20 Table 2 and T21 risk flags
+D09_final_result_source,Manuscript should use final_freeze tables as the sole numeric source.,Current final_freeze manifest
+D10_post_freeze_rule,"After this freeze, no gene re-selection, threshold re-selection, cohort removal, or untracked rerun is allowed.",Current final freeze rule

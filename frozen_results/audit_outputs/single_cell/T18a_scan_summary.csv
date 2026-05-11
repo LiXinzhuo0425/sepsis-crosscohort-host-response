@@ -1,0 +1,11 @@
+metric,value
+n_scan_dirs,4
+n_total_files_after_skip,437
+n_sc_candidate_files,231
+n_complete_10x_mex_dirs,0
+n_h5_candidate_files,0
+n_h5ad_candidate_files,0
+n_h5seurat_candidate_files,0
+n_rds_or_rdata_candidate_files,128
+n_metadata_candidate_files,97
+n_target_genes_detected_in_preview,16

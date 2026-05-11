@@ -1,0 +1,8 @@
+validation_dataset,n_thresholds,n_thresholds_model_better_than_all,n_thresholds_model_better_than_none,n_thresholds_model_clinically_preferable,fraction_thresholds_clinically_preferable,max_net_benefit_model,threshold_at_max_net_benefit
+GSE137340,76,21,76,21,0.276315789473684,0.74145891043398,0.05
+GSE236713,76,0,76,0,0,0.393548387096774,0.05
+GSE54514,76,43,62,29,0.381578947368421,0.642502482621648,0.05
+GSE57065,76,76,76,76,1,0.527308838133069,0.05
+GSE65682,76,26,45,0,0,0.474250141482739,0.05
+GSE95233,76,76,76,76,1,0.698630136986301,0.11
+Pooled_nested_LODO,76,21,76,21,0.276315789473684,0.536972596781209,0.05
