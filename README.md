@@ -1,6 +1,6 @@
-# Sepsis cross-cohort host-response transcriptomic signature
+# Sepsis cross-cohort host-response transcriptomic transportability audit
 
-This repository contains analysis code, frozen result tables, supplementary files, and reproducibility materials for a cross-cohort transcriptomic study of sepsis host-response signatures.
+This repository contains analysis code, frozen result tables, supplementary files, and reproducibility materials for a cross-cohort transcriptomic transportability and calibration audit in sepsis-control public cohorts.
 
 ## Data sources
 
@@ -15,11 +15,11 @@ Included bulk GEO datasets:
 - GSE65682
 - GSE95233
 
-Users should download raw or processed GEO source data directly from GEO according to GEO terms of use.
+Single-cell RNA-seq localization used GSE167363. Updated exploratory RNA-seq platform-feasibility records are documented in Additional file 6 and are not prespecified validation datasets.
 
 ## Repository contents
 
-- `code/`: R scripts used for data parsing, phenotype harmonization, differential-expression analysis, candidate-gene filtering, nested LODO modeling, final signature definition, and reproducibility audits.
+- `code/`: R scripts used for data parsing, phenotype harmonization, differential-expression analysis, candidate-gene filtering, nested LODO modeling, reporting-set definition, and reproducibility audits.
 - `frozen_results/`: Frozen result tables, audit outputs, model-development outputs, and figure-supporting files used for manuscript generation.
 - `additional_files/`: Supplementary tables and reproducibility files corresponding to the manuscript.
 - `docs/`: Data dictionary, run order, GEO accession documentation, and repository notes.
@@ -43,26 +43,25 @@ Operating system:
 
 - macOS, Apple Silicon environment
 
-Detailed package versions are provided in `sessionInfo.txt`.
+Detailed package versions are provided in `sessionInfo.txt` and Additional file 5.
 
 ## Key methodological settings
 
-- Nested leave-one-dataset-out model development.
-- 5-fold inner cross-validation within each outer training set.
-- Final compact model trained using separate 10-fold cross-validation.
-- glmnet penalized logistic regression with `family = "binomial"`, `type.measure = "auc"`, and `standardize = FALSE`.
-- Alpha grid: 1.00, 0.75, 0.50.
-- Lambda rule: `lambda.1se`.
-- DEG threshold: adjusted P < 0.05 and |log2FC| >= 0.5.
-- Candidate-gene filters: direction consistency >= 0.8, mean univariate AUROC >= 0.7, and correlation redundancy threshold |r| >= 0.85.
+- Strict nested leave-one-dataset-out procedure evaluation.
+- All candidate screening, scaling, model fitting, tuning, and threshold selection were performed in training-only data within each outer fold.
+- Held-out performance estimates come from fold-specific nested models.
+- FINAL10 is a post-nested reporting and biological-localization set, not one fixed clinical diagnostic test.
+- Outcome-informed local Youden thresholds are descriptive oracle comparators only.
 
 ## Additional files
 
-- Additional file 1: Source references and cohort-specific verification notes for included bulk transcriptomic datasets.
-- Additional file 2: Final 10-gene signature definition and nested LODO recurrence audit.
-- Additional file 3: Nested LODO modeling-method audit.
-- Additional file 4: Differential-expression and candidate-gene selection audit.
-- Additional file 5: Nested LODO methods text and reproducibility notes.
+- Additional file 1: Cohort metadata, sample selection, label mapping, gene availability, reference-standard audit, and subject-level dependence risk audit.
+- Additional file 2: FINAL10 reporting-set definition and nested LODO recurrence audit.
+- Additional file 3: Nested LODO modeling performance, calibration, threshold behavior, uncertainty, binning, leakage audit, cohort contrast difficulty, procedure-level failure diagnostics, calibration failure diagnostics, grouped Brier decomposition, contextual clinical-mimic stress-test evidence, and alternative-threshold executability audit.
+- Additional file 4: Differential-expression and candidate-gene filtering audit.
+- Additional file 5: Software environment, repository records, run order, README/CITATION text, and reproducibility notes.
+- Additional file 6: scRNA-seq, figure supporting data, updated exploratory RNA-seq platform-feasibility records, and gene availability.
+- Additional file 7: Reporting checklist, claim boundary, and allowed wording audit.
 
 ## License
 
@@ -70,4 +69,4 @@ Code is released under the MIT License. Result tables and documentation are rele
 
 ## Citation
 
-A permanent DOI will be added after the first GitHub release is archived in Zenodo.
+Archived code and frozen results: https://doi.org/10.5281/zenodo.20120948. Processed merged expression matrix: https://doi.org/10.5281/zenodo.20121035.
