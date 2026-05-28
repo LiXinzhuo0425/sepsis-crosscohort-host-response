@@ -1,40 +1,91 @@
-path	size_bytes
-README_COMPLETION_20260528.md	3185
-additional_files_submission_ready/Additional_file_1_Supplementary_Table_S1_cohort_metadata_sample_selection_label_mapping_gene_availability.xlsx	70266
-additional_files_submission_ready/Additional_file_2_Supplementary_Table_S2_FINAL10_reporting_set_definition_and_recurrence_audit.xlsx	9798
-additional_files_submission_ready/Additional_file_3_Supplementary_Table_S3_nested_LODO_modeling_performance_calibration_threshold_audit.xlsx	68103
-additional_files_submission_ready/Additional_file_4_Supplementary_Table_S4_DEG_candidate_gene_filtering_audit.xlsx	54048
-additional_files_submission_ready/Additional_file_5_Supplementary_Table_S5_software_repository_run_order_reproducibility.xlsx	50256
-additional_files_submission_ready/Additional_file_6_Supplementary_Table_S6_scRNA_and_figure_supporting_data.xlsx	15757764
-additional_files_submission_ready/Additional_file_7_Supplementary_Table_S7_reporting_checklist_and_claim_boundary.xlsx	21789
-additional_files_submission_ready/additional_files_submission_ready_cleanup_report.txt	2578
-figures/Figure_1_study_design_claim_boundary.png	1460953
-figures/Figure_2_cohort_applicability_transport_audit.pdf	11168
-figures/Figure_2_cohort_applicability_transport_audit.png	754500
-figures/Figure_3_held_out_discrimination.png	1334700
-figures/Figure_4_calibration_threshold_transport.png	1394642
-figures/Figure_5_single_cell_localization.png	1157454
-figures/Supplementary_Figure_S1_bulk_host_response_context.png	1305446
-github_sync_ready/CITATION.cff	538
-github_sync_ready/GITHUB_SYNC_NOTE.md	793
-github_sync_ready/README.md	3791
-manuscript/DCA_DPR_submission_ready_manuscript.docx	57761
-manuscript/DPR_deep_revision_change_summary_20260528.md	3597
-qc/DCA_DPR_submission_ready_manuscript.docx.png	704281
-qc/DOCX_visual_QA_status.txt	1723
-qc/reference_peerj-21070_page5.png	380266
-qc/reference_s41598-026-49584-y_page8.png	269438
-reports/DPR_deep_revision_completion_audit_20260528.md	2501
-reports/S1j_Baseline_Sensitivity.csv	3269
-reports/S3j_Cohort_Difficulty.csv	2634
-reports/S3k_Failure_Diagnostics.csv	2327
-reports/S3l_Calib_Failure_Dx.csv	1796
-reports/S3m_Alt_Threshold_Audit.csv	980
-reports/S6k_RNAseq_Audit.csv	12908
-reports/S6l_scRNA_Gene_Celltype.csv	7352
-reports/S6m_scRNA_Donor_Module.csv	39907
-reports/S7h_DPR_Plus_Response.csv	1429
-scripts_used/build_dpr_submission_ready_word.py	64916
-scripts_used/clean_additional_files_submission_ready.py	28384
-scripts_used/render_dpr_deep_revision_figures.R	7637
-scripts_used/run_dpr_deep_revision.py	25660
+relative_path	size_bytes	modified_time
+README_COMPLETION_20260528.md	3772	2026-05-28T12:07:00
+additional_files_submission_ready/Additional_file_1_Supplementary_Table_S1_cohort_metadata_sample_selection_label_mapping_gene_availability.xlsx	70266	2026-05-28T11:54:15
+additional_files_submission_ready/Additional_file_2_Supplementary_Table_S2_FINAL10_reporting_set_definition_and_recurrence_audit.xlsx	9798	2026-05-28T11:54:15
+additional_files_submission_ready/Additional_file_3_Supplementary_Table_S3_nested_LODO_modeling_performance_calibration_threshold_audit.xlsx	71095	2026-05-28T11:54:15
+additional_files_submission_ready/Additional_file_4_Supplementary_Table_S4_DEG_candidate_gene_filtering_audit.xlsx	54048	2026-05-28T11:54:15
+additional_files_submission_ready/Additional_file_5_Supplementary_Table_S5_software_repository_run_order_reproducibility.xlsx	50256	2026-05-28T11:54:15
+additional_files_submission_ready/Additional_file_6_Supplementary_Table_S6_scRNA_and_figure_supporting_data.xlsx	15757765	2026-05-28T11:54:28
+additional_files_submission_ready/Additional_file_7_Supplementary_Table_S7_reporting_checklist_and_claim_boundary.xlsx	21790	2026-05-28T11:54:29
+additional_files_submission_ready/additional_files_submission_ready_cleanup_report.txt	2578	2026-05-28T11:54:36
+figures/Figure_1_study_design_claim_boundary.png	1460953	2026-05-28T11:28:37
+figures/Figure_2_cohort_applicability_transport_audit.pdf	11168	2026-05-28T11:19:47
+figures/Figure_2_cohort_applicability_transport_audit.png	754500	2026-05-28T11:19:47
+figures/Figure_3_held_out_discrimination.png	1334700	2026-05-28T11:28:37
+figures/Figure_4_calibration_threshold_transport.png	1394642	2026-05-28T11:28:37
+figures/Figure_5_single_cell_localization.png	1157454	2026-05-28T11:28:37
+figures/Supplementary_Figure_S1_bulk_host_response_context.png	1305446	2026-05-28T11:28:37
+github_sync_ready/CITATION.cff	538	2026-05-28T11:54:36
+github_sync_ready/GITHUB_SYNC_NOTE.md	1031	2026-05-28T12:07:00
+github_sync_ready/README.md	3598	2026-05-28T12:02:13
+manuscript/DCA_DPR_submission_ready_manuscript.docx	58297	2026-05-28T12:07:38
+manuscript/DCA_DPR_submission_ready_manuscript_text.md	502	2026-05-28T12:07:38
+manuscript/DPR_deep_revision_change_summary_20260528.md	3879	2026-05-28T12:07:38
+qc/DCA_DPR_submission_ready_manuscript.docx.png	704281	2026-05-28T11:28:37
+qc/DOCX_visual_QA_status.txt	1886	2026-05-28T12:07:38
+qc/reference_peerj-21070_page5.png	380266	2026-05-28T11:31:14
+qc/reference_s41598-026-49584-y_page8.png	269438	2026-05-28T11:31:14
+qc/render_check_submission_ready_full/DCA_DPR_submission_ready_manuscript.pdf	271977	2026-05-28T11:57:45
+qc/render_check_submission_ready_full/page-1.png	236564	2026-05-28T11:57:45
+qc/render_check_submission_ready_full/page-10.png	348485	2026-05-28T11:57:45
+qc/render_check_submission_ready_full/page-11.png	323129	2026-05-28T11:57:46
+qc/render_check_submission_ready_full/page-12.png	296844	2026-05-28T11:57:46
+qc/render_check_submission_ready_full/page-13.png	351606	2026-05-28T11:57:45
+qc/render_check_submission_ready_full/page-14.png	316109	2026-05-28T11:57:46
+qc/render_check_submission_ready_full/page-15.png	325044	2026-05-28T11:57:46
+qc/render_check_submission_ready_full/page-16.png	304086	2026-05-28T11:57:45
+qc/render_check_submission_ready_full/page-17.png	248609	2026-05-28T11:57:46
+qc/render_check_submission_ready_full/page-18.png	257159	2026-05-28T11:57:46
+qc/render_check_submission_ready_full/page-19.png	294638	2026-05-28T11:57:45
+qc/render_check_submission_ready_full/page-2.png	330022	2026-05-28T11:57:46
+qc/render_check_submission_ready_full/page-20.png	337098	2026-05-28T11:57:46
+qc/render_check_submission_ready_full/page-21.png	666873	2026-05-28T11:57:46
+qc/render_check_submission_ready_full/page-22.png	615886	2026-05-28T11:57:46
+qc/render_check_submission_ready_full/page-23.png	628048	2026-05-28T11:57:46
+qc/render_check_submission_ready_full/page-24.png	46235	2026-05-28T11:57:46
+qc/render_check_submission_ready_full/page-3.png	321580	2026-05-28T11:57:46
+qc/render_check_submission_ready_full/page-4.png	324280	2026-05-28T11:57:45
+qc/render_check_submission_ready_full/page-5.png	346492	2026-05-28T11:57:46
+qc/render_check_submission_ready_full/page-6.png	336602	2026-05-28T11:57:46
+qc/render_check_submission_ready_full/page-7.png	331749	2026-05-28T11:57:45
+qc/render_check_submission_ready_full/page-8.png	329558	2026-05-28T11:57:46
+qc/render_check_submission_ready_full/page-9.png	331591	2026-05-28T11:57:46
+reports/DPR_deep_revision_completion_audit_20260528.md	3419	2026-05-28T12:07:00
+reports/Figure_2_cohort_applicability_transport_audit_source.csv	11238	2026-05-28T11:19:47
+reports/GSE154918_exploratory_FINAL10_scores.csv	81968	2026-05-27T19:29:50
+reports/GSE294985_exploratory_FINAL10_scores.csv	1476	2026-05-27T19:29:50
+reports/S1g_Reference_Standard_Audit.csv	5069	2026-05-27T19:30:01
+reports/S1h_Subject_Level_Risk.csv	750	2026-05-27T19:30:01
+reports/S1i_Subject_Level_Dataset_Audit.csv	1232	2026-05-28T11:57:28
+reports/S1j_Baseline_Sensitivity.csv	3269	2026-05-28T11:04:06
+reports/S3g_Uncertainty_CI.csv	14232	2026-05-27T19:30:01
+reports/S3h_Calibration_Binning.csv	1312	2026-05-27T19:30:01
+reports/S3i_Leakage_Audit.csv	1403	2026-05-27T19:30:01
+reports/S3j_Cohort_Difficulty.csv	2634	2026-05-28T11:04:06
+reports/S3k_Failure_Diagnostics.csv	2327	2026-05-28T11:04:06
+reports/S3l_Calib_Failure_Dx.csv	1796	2026-05-28T11:04:06
+reports/S3m_Alt_Threshold_Audit.csv	980	2026-05-28T11:04:06
+reports/S3n_Brier_Decomposition.csv	1734	2026-05-28T11:51:24
+reports/S3o_Clinical_Mimic_Context.csv	953	2026-05-28T11:51:24
+reports/S6h_RNAseq_Updated_Search.csv	19311	2026-05-27T19:30:01
+reports/S6i_RNAseq_Exploratory_FINAL10.csv	981	2026-05-27T19:30:01
+reports/S6j_RNAseq_Gene_Avail.csv	856	2026-05-27T19:30:01
+reports/S6k_RNAseq_Audit.csv	12908	2026-05-28T11:04:06
+reports/S6l_scRNA_Gene_Celltype.csv	7352	2026-05-28T11:04:06
+reports/S6m_scRNA_Donor_Module.csv	39907	2026-05-28T11:04:06
+reports/S7f_DPR_Response_Map.csv	1216	2026-05-27T19:30:01
+reports/S7g_Allowed_Claim_Wording.csv	850	2026-05-27T19:30:01
+reports/S7h_DPR_Plus_Response.csv	1429	2026-05-28T11:04:06
+reports/extracted_workbook_inventory.json	26684	2026-05-27T19:12:50
+reports/ncbi_geo_rnaseq_esummary_union.json	532802	2026-05-27T19:14:29
+reports/ncbi_geo_rnaseq_search_1.json	4492	2026-05-27T19:14:05
+reports/ncbi_geo_rnaseq_search_2.json	2654	2026-05-27T19:14:05
+reports/ncbi_geo_rnaseq_search_3.json	1447	2026-05-27T19:14:05
+scripts_used/build_dpr_revision_documents.py	49844	2026-05-27T19:41:40
+scripts_used/build_dpr_submission_ready_word.py	66848	2026-05-28T11:57:15
+scripts_used/clean_additional_files_submission_ready.py	28384	2026-05-28T11:21:46
+scripts_used/dca_xlsx_utils.py	6832	2026-05-27T19:12:34
+scripts_used/render_dpr_deep_revision_figures.R	7637	2026-05-28T11:08:07
+scripts_used/run_dpr_deep_revision.py	25660	2026-05-28T11:03:59
+scripts_used/run_dpr_remaining_extensions.py	6371	2026-05-28T11:51:15
+scripts_used/run_dpr_revision_analyses.py	29282	2026-05-27T19:29:30
